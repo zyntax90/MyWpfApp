@@ -1,0 +1,15 @@
+﻿<Window x:Class="MyWpfApp.View.PatientView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyWpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="489.076" Width="805.042">
+    <Grid>
+        <StackPanel HorizontalAlignment="Stretch" Height="458" VerticalAlignment="Stretch" Width="797">
+            <GroupBox x:Name="grpMaster" Header="Master" HorizontalAlignment="Left" Height="213" VerticalAlignment="Top" Width="771" Margin="10,0,0,0"/>
+            <GroupBox x:Name="grpDetail" Header="Detail" HorizontalAlignment="Left" Height="228" VerticalAlignment="Bottom" Width="771" Margin="10,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
